@@ -14,8 +14,8 @@ mkdir -p ~/.config/fontconfig/conf.d
 mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 # change some contents in .bashrc #
 echo 'POWERLINE_SCRIPT=/usr/share/powerline/bindings/bash/powerline.sh' >> ~/.bashrc
-echo 'if [ -f \$POWERLINE_SCRIPT ]; then' >> ~/.bashrc
-echo '  source \$POWERLINE_SCRIPT' >> ~/.bashrc
+echo 'if [ -f $POWERLINE_SCRIPT ]; then' >> ~/.bashrc
+echo '  source $POWERLINE_SCRIPT' >> ~/.bashrc
 echo 'fi' >> ~/.bashrc
 # change some contents in .vimrc #
 echo 'set laststatus=2' >> ~/.vimrc
