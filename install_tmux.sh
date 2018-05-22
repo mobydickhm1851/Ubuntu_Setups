@@ -1,9 +1,15 @@
 #!/bin/bash
+###-- this file mainly set the terminal environment to 'tmux' --### 
+###-- powerline make the UI better --###
 
-###-- tmux
+###----------###
+###-- tmux --###
+###----------###
 sudo apt-get install -y tmux
 
-###-- powerline
+###---------------###
+###-- powerline --###
+###---------------###
 sudo apt-get -y install powerline
 wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
 wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
