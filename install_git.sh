@@ -1,14 +1,14 @@
 #!/bin/bash
 ###-- this file mainly set up config in git --### 
 
-###-----------------###
+###--=============--###
 ###-- install git --###
-###-----------------###
+###--=============--###
 sudo apt-get install git-all
 
-###------------------------###
+###--====================--###
 ###-- settings in config --###
-###------------------------###
+###--====================--###
 git config --global  user.name "mobydickhm1851"
 git config --global  user.email "liuyc@solab.me.ntu.edu.tw"
 # add color to git #
