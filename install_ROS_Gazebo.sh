@@ -26,6 +26,8 @@ source ~/.bashrc
 # install this tool and other dependencies for building ROS packages
 sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 ###-- Gazebo(version:gazebo_7) --###
 # Gazebo7 is for kinetic
 
@@ -40,4 +42,14 @@ wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 sudo apt-get update
 # install Gazebo7
 sudo apt-get install gazebo7
+
+# if it fails on installing gazebo7, try these two command:
+  # sudo apt-get install gazebo7-common 
+  # sudo apt-get install libsdformat4
+# before:
+  # sudo apt-get install gazebo7
+
+# Install gazebo_ros_pkgs
+sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
+
 
