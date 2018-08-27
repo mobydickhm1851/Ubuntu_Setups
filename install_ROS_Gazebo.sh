@@ -25,3 +25,7 @@ source ~/.bashrc
 
 # install this tool and other dependencies for building ROS packages
 sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+
+###-- Gazebo --###
+# for more detail see http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
+curl -sSL http://get.gazebosim.org | sh
