@@ -35,3 +35,6 @@ sudo apt-get install texmaker
 
 ###-- minecraft --###
 sudo snap install minecraft
+
+###-- chinese text input --###
+sudo apt-get install ibus-chewing #新酷音輸入法
