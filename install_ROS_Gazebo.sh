@@ -26,6 +26,18 @@ source ~/.bashrc
 # install this tool and other dependencies for building ROS packages
 sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
 
-###-- Gazebo --###
+###-- Gazebo(version:gazebo_7) --###
+# Gazebo7 is for kinetic
+
 # for more detail see http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install
-curl -sSL http://get.gazebosim.org | sh
+# curl -sSL http://get.gazebosim.org | sh #this will install the latest Gazebo version
+
+# Setup your computer to accept software from packages.osrfoundation.org.
+sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+# Setup keys
+wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
+# Update first
+sudo apt-get update
+# install Gazebo7
+sudo apt-get install gazebo7
+
