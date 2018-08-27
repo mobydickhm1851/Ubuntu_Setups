@@ -29,4 +29,9 @@ sudo apt-get install texmaker
 #https://extensions.libreoffice.org/extensions/texmaths-1
 #Note:restart after adding the extenstion
 
+###-- mendeley --###
+#https://www.mendeley.com/download-desktop/Linux/#downloading
+#sudo apt-get install mendeleydesktop #update automatically
 
+###-- minecraft --###
+sudo snap install minecraft
