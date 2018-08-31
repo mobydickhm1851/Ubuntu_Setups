@@ -10,8 +10,8 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
 # first update
 sudo apt-get update
-# install full-desktop and rosbash(ros command)
-sudo apt-get install ros-kinetic-desktop-full ros-kinetic-rosbash
+# install full-desktop, rosbash(ros command) and map_server
+sudo apt-get install ros-kinetic-desktop-full ros-kinetic-rosbash ros-kinetic-map-server
 # to find available packages
 # apt-cache search ros-kinetic
 
