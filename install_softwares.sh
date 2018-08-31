@@ -6,6 +6,9 @@
 sudo apt-get update
 sudo apt-get upgrade
 
+###-- install vim --###
+sudo apt-get install vim-gnome # with clipboard
+
 ###-- install snapd --###
 # after Ubuntu 16.04 snapd is included
 # sudo apt update
