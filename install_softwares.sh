@@ -42,3 +42,9 @@ sudo snap install minecraft
 
 ###-- chinese text input --###
 sudo apt-get install ibus-chewing #新酷音輸入法
+
+###-- f.lux --###o
+# f.lux makes your computer screen look like the room you're in, all the time. 
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install fluxgui
