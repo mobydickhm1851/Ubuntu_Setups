@@ -8,7 +8,7 @@ sudo apt-get upgrade
 
 ###-- install vim --###
 sudo apt-get install vim-gnome # (with clipboard function)
-# put set clipboard=unnamed in your .vimrc and restart your vim sessions.
+# put "set clipboard=unnamed" in your .vimrc and restart your vim sessions.
 
 ###-- install snapd --###
 # after Ubuntu 16.04 snapd is included
