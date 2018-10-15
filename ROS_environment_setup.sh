@@ -18,8 +18,8 @@ echo "#export ROS_HOSTNAME=localhost" >> ~/.bashrc
 # solabot
 echo "    # Multi-machine setting for solabot and solabot2 " >> ~/.bashrc
 echo "    # solabot setting" >> ~/.bashrc
-echo "    export ROS_MASTER_URI=http://192.168.50.203:11311" >> ~/.bashrc
+echo "    #export ROS_MASTER_URI=http://192.168.50.203:11311" >> ~/.bashrc
 echo "    # solabot2 setting" >> ~/.bashrc
-echo "    export ROS_MASTER_URI=http://192.168.50.229:11311" >> ~/.bashrc
+echo "    #export ROS_MASTER_URI=http://192.168.50.229:11311" >> ~/.bashrc
 
 source ~/.bashrc
