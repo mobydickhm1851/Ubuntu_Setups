@@ -31,6 +31,8 @@ sudo apt-get install ros-kinetic-mrpt-ekf-slam-2d
 # mrpt (rf2o is part of this package)
 sudo apt-get install mrpt-apps libmrpt-dev
 # see trouble shooting if something is wrong #
+# gmapping
+sudo apt-get install ros-kinetic-gmapping
 
 #########################
 ###-- Localization  --###
@@ -65,7 +67,8 @@ sudo apt-get install ros-kinetic-xacro
 sudo apt-get install ros-kinetic-joint-state-controller
 # effort_controllers (for gazebo) 
 sudo apt-get install ros-kinetic-effort-controllers
-
+# ros_control, ros_controllers and gazebo_ros_control
+sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers ros-kinetic-gazebo-ros-control
 
 ## urg_node (hokuyo lidar)
 # cd ~/catkin_ws/src
