@@ -1,8 +1,0 @@
-- On installing Ubuntu LTS18.04 for dual boot
-  => when on the section of drive partition, change Mount Point to
-     Mount point: /boot/efi (remark: no need to set this mount point when using the manual partitioning, 
-     the Ubuntu installer will detect it automatically)
-
-- When nautilus . doesn't work as well as the file manager, click and nothing happened
-  => see what are the runnung nautilus processes :$ ps awx | grep nautilus
-     terminating the runnung nautilus processes :$ sudo kill -TERM <id>

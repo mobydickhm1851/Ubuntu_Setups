@@ -11,10 +11,12 @@
 sudo touch /etc/udev/rules.d/99-usb-serial.rules
 # Add arduino_nano (/dev/ttyUSB*) #
 sudo bash -c "echo 'SUBSYSTEM==\"tty\", ATTRS{idVendor}==\"0403\", ATTRS{idProduct}==\"6001\", MODE:=\"0666\", SYMLINK+=\"solabot_nano\"' >> /etc/udev/rules.d/99-usb-serial.rules"
-# Add rplidar (/dev/ttyUSB*) #
-sudo bash -c "echo 'SUBSYSTEM==\"tty\", ATTRS{idVendor}==\"10c4\", ATTRS{idProduct}==\"ea60\", MODE:=\"0666\", SYMLINK+=\"rplidar\"' >> /etc/udev/rules.d/99-usb-serial.rules"
 # Add RAZOR_IMU_9DOF (/dev/ttyACM*) #
 sudo bash -c "echo 'KERNEL==\"ttyACM*\", ATTRS{idVendor}==\"1b4f\", ATTRS{idProduct}==\"9d0e\", MODE:=\"0666\",SYMLINK+=\"solabot_razor\"' >> /etc/udev/rules.d/99-usb-serial.rules"
+# Add hokuyo (RUG) #
+sudo bash -c "echo 'SUBSYSTEM==\"tty\", ATTRS{idVendor}==\"15d1\", ATTRS{idProduct}==\"0000\", MODE:=\"0666\", SYMLINK+=\"hokuyo\"' >> /etc/udev/rules.d/99-usb-serial.rules"
+# Add rplidar (/dev/ttyUSB*) #
+#sudo bash -c "echo 'SUBSYSTEM==\"tty\", ATTRS{idVendor}==\"10c4\", ATTRS{idProduct}==\"ea60\", MODE:=\"0666\", SYMLINK+=\"rplidar\"' >> /etc/udev/rules.d/99-usb-serial.rules"
 
 # load the new rule #
 sudo udevadm trigger
