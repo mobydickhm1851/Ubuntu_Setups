@@ -9,6 +9,7 @@ sudo apt-get install vim-gnome # (with clipboard function)
 echo 'set clipboard^=unnamed2' >> ~/.vimrc  
 
 # change indent for 4 spaces
+# Source: https://stackoverflow.com/questions/234564/tab-key-4-spaces-and-auto-indent-after-curly-braces-in-vim
 echo 'filetype plugin indent on' >> ~/.vimrc
 echo '" show existing tab with 4 spaces width ' >> ~/.vimrc
 echo 'set tabstop=4' >> ~/.vimrc
