@@ -6,7 +6,7 @@ sudo apt-get install vim-gnome # (with clipboard function)
 
 # ======== change some contents in .vimrc ======== #
 # enable the clipboard among all terminal
-echo 'set clipboard^=unnamed2' >> ~/.vimrc  
+echo 'set clipboard^=unnamed' >> ~/.vimrc  
 
 # change indent for 4 spaces
 # Source: https://stackoverflow.com/questions/234564/tab-key-4-spaces-and-auto-indent-after-curly-braces-in-vim
